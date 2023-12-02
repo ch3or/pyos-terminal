@@ -10,7 +10,7 @@ def clear_console():
 clear_console()
 
 
-avaliable_commands = ["quit", "clear", "help"]
+avaliable_commands = ["quit", "clear", "help", ""]
 
 while True:
     command = input("[usr@pyos] : ")

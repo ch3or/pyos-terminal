@@ -1,4 +1,5 @@
 <p align="center">
+  <br>
   <img src="img/banner.png">
   <br>
   <br>

@@ -10,7 +10,7 @@ def clear_console():
 clear_console()
 
 
-avaliable_commands = ["quit", "clear", "help", "pyos", "pyos --version", ""]
+avaliable_commands = ["", "clear", "help", "pyos", "pyos --version", "quit"]
 
 while True:
     command = input("[usr@pyos] : ")
@@ -18,6 +18,8 @@ while True:
         if command == "help":
             print("quit - exit the terminal.")
             print("clear - clear console.")
+            print("pyos - some details.")
+            print("pyos --version - pyos version.")
         if command == "clear":
             clear_console()
         if command == "quit":
@@ -27,7 +29,7 @@ while True:
         if command == "pyos":
             print("pyos terminal, made by cheor 2023.")
         if command == "pyos --version":
-            print("pyos 1")
+            print("pyos v1.0")
 
     if command not in avaliable_commands:
         print("'" + command + "'" + " is not recognized as a command.")
